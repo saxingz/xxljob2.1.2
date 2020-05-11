@@ -24,4 +24,11 @@ public interface XxlJobGroupDao {
 
     public XxlJobGroup load(@Param("id") int id);
 
+    /**
+     * 根据app名称查找
+     *
+     * @return jobgroup
+     */
+    public XxlJobGroup selectByAppName(@Param("appName") String appName);
+
 }

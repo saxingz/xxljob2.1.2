@@ -60,4 +60,12 @@
 		WHERE t.id = #{id}
 	</select>
 
+	<!-- 二次开发 start -->
+	<select id="selectByAppName" resultType="com.xxl.job.admin.core.model.XxlJobGroup">
+		SELECT <include refid="Base_Column_List" />
+		FROM xxl_job_group AS t
+		WHERE t.app_name = #{appName}
+	</select>
+	<!-- 二次开发 end -->
+
 </mapper>
