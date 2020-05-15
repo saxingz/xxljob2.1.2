@@ -383,6 +383,7 @@ $(function() {
 				required : true
 			},
             executorTimeout : {
+				required : true,
                 digits:true
             },
             executorFailRetryCount : {
@@ -548,6 +549,7 @@ $(function() {
 				required : true
 			},
             executorTimeout : {
+				required : true,
                 digits:true
             },
             executorFailRetryCount : {
